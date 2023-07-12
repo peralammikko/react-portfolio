@@ -33,12 +33,17 @@ body {
   justify-content: center;
 }
 
-.title {
+.titletext {
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
 }
 
+.nametext {
+  font-size: 40px;
+  font-weight: 700px;
+  color: white;
+}
 
 .container {
   display: flex;
@@ -55,8 +60,8 @@ body {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  justify-content:space-evenly;
   border-style: dashed;
-  border-color: red;
 }
 
 .contain-image {
@@ -71,9 +76,13 @@ body {
 .socialbuttons {
   padding-top: 50px;
 }
-
-button.socialbuttons {
-  background:cyan;
+.socialmediabutton {
+  background:none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 20px;
+  color: white;
+  border-color: white;
 }
 
 a {

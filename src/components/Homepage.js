@@ -6,24 +6,24 @@ import '../App.css';
 function Home () {
     return (
     <div className="homepage">
-    <Container className="container">
-      <Row className="content">
-        <Col className="contain-para" md={7}>
-          <h2>Hello</h2>
-          <h2>I'm Mikko Perälä</h2>
-          <a>this site fucking sucks</a>
-          <Row className="socialbuttons">
-            <button>Button1</button>
-            <button>Button2</button>
-            <button>Button3</button>
-            <button>Button4</button>
-          </Row>
-        </Col>
-        <Col className="contain-image">
-        </Col>
-      </Row>
-    </Container>
-  </div>)
+        <Container className="container">
+        <Row className="content">
+            <Col className="contain-para" md={7}>
+            <h2 className="titletext">Hello</h2>
+            <h2 className="nametext">I'm Mikko Perälä</h2>
+            <a>this site fucking sucks</a>
+            <Row className="socialbuttons">
+                <button className="socialmediabutton">Button1</button>
+                <button className="socialmediabutton">Button2</button>
+                <button className="socialmediabutton">Button3</button>
+                <button className="socialmediabutton">Button4</button>
+            </Row>
+            </Col>
+            <Col className="contain-image">
+            </Col>
+        </Row>
+        </Container>
+    </div>)
 }
 
 export default Home;
