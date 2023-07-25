@@ -2,55 +2,56 @@ import React from "react";
 import monke from "../images/Navy_Seal.jpg";
 import ProjectCard from "./ProjectCard";
 import "../pages/style.css";
-import { Grid } from "@mui/material";
+import { Box, Container, Grid } from "@mui/material";
 
 function Projects () {
     return (
-        <div className="projectbackground">
-            <h1>Here are some wack-ass projects</h1>
-            <Grid 
+        <Container madWidth="xl">
+            <h2>Projects here</h2>
+            <Grid
                 container
-                spacing={2}
+                justifyContent="center"
+                alignItems="center"
+                direction="row"
             >
-                <Grid item md={4} className="project-card">
+                <Grid item xs={4} className="project-card">
                     <ProjectCard
                     imgPath={monke}
                     title="Navy Seal"
                     desc="I am trained in gorilla warfare"/>
                 </Grid>
-                <Grid item md={4} className="project-card">
+                <Grid item xs={4} className="project-card">
                     <ProjectCard
                     imgPath={monke}
                     title="Navy Seal"
                     desc="I am trained in gorilla warfare"/>
                 </Grid>
-                <Grid item md={4} className="project-card">
+                <Grid item xs={4} className="project-card">
                     <ProjectCard
                     imgPath={monke}
                     title="Navy Seal"
                     desc="I am trained in gorilla warfare"/>
                 </Grid>
-                <Grid item md={4} className="project-card">
+                <Grid item xs={4} className="project-card">
                     <ProjectCard
                     imgPath={monke}
                     title="Navy Seal"
                     desc="I am trained in gorilla warfare"/>
                 </Grid>
-                <Grid item md={4} className="project-card">
+                <Grid item xs={4} className="project-card">
                     <ProjectCard
                     imgPath={monke}
                     title="Navy Seal"
                     desc="I am trained in gorilla warfare"/>
                 </Grid>
-                <Grid item md={4} className="project-card">
+                <Grid item xs={4} className="project-card">
                     <ProjectCard
                     imgPath={monke}
                     title="Navy Seal"
                     desc="I am trained in gorilla warfare"/>
                 </Grid>
             </Grid>
-
-        </div>
+        </Container>
     )
 }
 

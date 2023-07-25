@@ -17,8 +17,8 @@ function ProjectCard(props) {
                 </Typography>
             </CardContent>
             <CardActions>
-                <Button size="small">View</Button>
-                <Button size="small">Github</Button>
+                <Button className="cardButton" size="small">View</Button>
+                <Button className="cardButton" size="small">Github</Button>
             </CardActions>
         </Card>
     )
