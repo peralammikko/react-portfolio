@@ -56,15 +56,14 @@ body {
   justify-content: space-evenly;
 }
 
-.contain-para {
+.containPara {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content:space-evenly;
-  border-style: dashed;
 }
 
-.contain-image {
+.containImage {
   border-style: dashed;
   border-color: blue;
   background-image: url(./images/Navy_Seal.jpg);

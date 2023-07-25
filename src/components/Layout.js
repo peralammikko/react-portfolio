@@ -1,4 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
+import NavBar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 import '../App.css';
 
 const Layout = () => {
@@ -14,8 +16,8 @@ const Layout = () => {
             </ul>
             </div>
         </div>
-
-        <Outlet /></>
+        <Outlet />
+    </>
     )
 }
 
