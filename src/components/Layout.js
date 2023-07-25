@@ -11,6 +11,7 @@ const Layout = () => {
             <div className="headertext">Header logo</div>
             <ul>
                 <li><Link to='/'>Home</Link></li>
+                <li><Link to='/aboutme'>About me</Link></li>
                 <li><Link to='/projects'>Projects</Link></li>
                 <li><Link to='/sandbox'>Sandbox</Link></li>
             </ul>
