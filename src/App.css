@@ -45,31 +45,19 @@ body {
   color: white;
 }
 
-.container {
+.homepageContainer {
   display: flex;
   flex-direction: column;
   padding-top: 80px;
 }
 
-.content {
+.homepageContent {
   display: flex;
   justify-content: space-evenly;
 }
 
-.containPara {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content:space-evenly;
-}
-
-.containImage {
-  border-style: dashed;
-  border-color: blue;
-  background-image: url(./images/Navy_Seal.jpg);
-  max-width: 500px;
-  width: 30%;
-  height: 300px;
+.homePara {
+  text-align: left;
 }
 
 .socialbuttons {

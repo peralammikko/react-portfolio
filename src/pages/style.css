@@ -13,6 +13,9 @@ h2 {
     color: white;
 }
 
+
+/* Projects page */
+
 .project-card-view {
     border-radius: 10px;
     border: transparent;
@@ -43,8 +46,37 @@ Button.cardButton {
     height: 100%;
 }
 
+.projectContainer {
+}
+
+
+/* About me page */
+
+.aboutBackground {
+    margin-top: 50px;
+}
+
 .aboutMeBox {
-    margin-top: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
+    border-radius: 20px;
+    color: white;
+    padding: 30px;
+}
+
+.aboutMeText {
+    text-align: justify;
+}
+
+.aboutMeImage {
+
+}
+
+.skillContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skillImg {
+    width: 50px;
+    height: 50px;
 }

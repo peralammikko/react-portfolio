@@ -7,9 +7,10 @@ import { Box, Container, Grid } from "@mui/material";
 function Projects () {
     return (
         <Container madWidth="xl">
-            <h2>Projects here</h2>
+            <h2>Look at my shit projects here</h2>
             <Grid
                 container
+                className="projectContainer"
                 justifyContent="center"
                 alignItems="center"
                 direction="row"
