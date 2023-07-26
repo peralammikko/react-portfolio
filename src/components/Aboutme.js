@@ -14,12 +14,23 @@ function Aboutme() {
                 alignItems="center"
             >
                 <Grid item md={5} className="aboutMeText">
-                    <h1>Who dis?</h1>
-                    <p>What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire US armed forces.</p>
+                    <h1>Who is this guy anyway?</h1>
+                    <p>I'm Mikko, a master's degree student in Tampere University, currently studying Human-Technology Interaction and Software Engineering. 
+                        After a bachelor's degree in Material Science, I switched to Computer Science to learn more about UI/UX design related work and developing interesting software.
+                        In the summer of 2023, I started a curriculum in The Odin Project and used that knowledge to build this site!</p>
                     <div className="skillContainer">
-                        <img className="skillImg" src={monke} />
-                        <img className="skillImg" src={monke} />
-                        <img className="skillImg" src={monke} />
+                        <div className="skillBox">
+                            <img className="skillImg" src={monke} />
+                            <p>Name of thing</p>
+                        </div>
+                        <div className="skillBox">
+                            <img className="skillImg" src={monke} />
+                            <p>Name of thing</p>
+                        </div>
+                        <div className="skillBox">
+                            <img className="skillImg" src={monke} />
+                            <p>Name of thing</p>
+                        </div>
                     </div>
                 </Grid>
                 <Grid item md={5} className="aboutMeImage">

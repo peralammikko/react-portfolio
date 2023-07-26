@@ -4,9 +4,13 @@ import NavBar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import '../App.css';
 import '../pages/style.css';
-import { CardMedia, Container, Grid } from "@mui/material";
+import { CardMedia, Container, Grid, IconButton } from "@mui/material";
 import { Row } from "react-bootstrap";
 import monke from "../images/Navy_Seal.jpg";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 
 function Home () {
     return (
@@ -19,12 +23,11 @@ function Home () {
             <h2 className="titletext">Hello</h2>
             <h2 className="nametext">I'm Mikko Perälä</h2>
             <a>this site fucking sucks</a>
-                <Row className="socialbuttons">
-                    <button className="socialmediabutton">Instagram</button>
-                    <button className="socialmediabutton">Twitter</button>
-                    <button className="socialmediabutton">YouTube</button>
-                    <button className="socialmediabutton">Github</button>
-                </Row>
+                <div className="socialbuttons">
+                    <IconButton className="socialmediabutton" aria-label='linkedin'><LinkedInIcon/></IconButton>
+                    <IconButton className="socialmediabutton" aria-label='linkedin'><TwitterIcon/></IconButton>
+                    <IconButton className="socialmediabutton" aria-label='linkedin'><GitHubIcon/></IconButton>
+                </div>
             </Grid>
             <Grid item md={5}>
                 <CardMedia 

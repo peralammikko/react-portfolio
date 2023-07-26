@@ -28,7 +28,7 @@ function Sandbox () {
 
 
     return (
-    <div className='sandboxbackground'>
+    <div className='sandboxBackground'>
         <Container>
             <h1>Play area for all things React!</h1>
             <Row>
