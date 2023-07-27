@@ -1,5 +1,6 @@
 import { Container, Grid, CardMedia } from "@mui/material";
 import monke from "../images/Navy_Seal.jpg";
+import self from "../images/self.jpg";
 
 
 function Aboutme() {
@@ -34,11 +35,10 @@ function Aboutme() {
                     </div>
                 </Grid>
                 <Grid item md={5} className="aboutMeImage">
-                    <CardMedia
+                    <CardMedia className="selfImage"
                         component={"img"}
-                        src={monke}>    
+                        src={self}>
                     </CardMedia>
-                   This is what I look like
                 </Grid>
             </Grid>
 

@@ -17,8 +17,10 @@ function ProjectCard(props) {
                 </Typography>
             </CardContent>
             <CardActions className="cardButtonContainer">
-                <Button className="cardButton" size="small">View</Button>
-                <Button className="cardButton" size="small">Github</Button>
+                <Button 
+                    className="cardButton" 
+                    size="small"
+                    onClick={()=>window.open(props.gitlink)}>Github page</Button>
             </CardActions>
         </Card>
     )
