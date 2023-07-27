@@ -1,7 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import NavBar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import '../App.css';
+import '../pages/style.css';
 
 const Layout = () => {
     return (
