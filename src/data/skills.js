@@ -1,0 +1,17 @@
+export const skillList = [
+    'Photoshop',
+    'Lightroom',
+    'Figma',
+    'Canva',
+    'HTML',
+    'CSS',
+    'Javascript',
+    'React',
+    'Bootstrap',
+    'MaterialUI',
+    'Git',
+    'C++',
+    'Python',
+    'Unity',
+    'SQL',
+]

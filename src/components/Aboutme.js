@@ -2,9 +2,12 @@ import { Container, Grid, CardMedia } from "@mui/material";
 import monke from "../images/Navy_Seal.jpg";
 import self from "../images/self.jpg";
 import Marquee from "react-fast-marquee";
+import { skillList } from "../data/skills.js";
+import {findSkillImg} from "../utility/skillImgs.js";
 
 
 function Aboutme() {
+
     return (
         <Container maxWidth="lg" className="aboutBackground">
             <Grid 
@@ -38,32 +41,12 @@ function Aboutme() {
             >
                 <h1>What does this guy know</h1>
                 <Marquee pauseOnHover={true}>
-                <div className="skillContainer">
-                        <div className="skillBox">
-                            <img className="skillImg" src={monke} />
-                            <p>Name of thing</p>
+                    {skillList.map((skill, id) => (
+                        <div className="skillBox" key={id}>
+                            <img className="skillImg" src={findSkillImg(skill)} alt={skill} />
+                            <p>{skill}</p>
                         </div>
-                        <div className="skillBox">
-                            <img className="skillImg" src={monke} />
-                            <p>Name of thing</p>
-                        </div>
-                        <div className="skillBox">
-                            <img className="skillImg" src={monke} />
-                            <p>Name of thing</p>
-                        </div>
-                        <div className="skillBox">
-                            <img className="skillImg" src={monke} />
-                            <p>Name of thing</p>
-                        </div>
-                        <div className="skillBox">
-                            <img className="skillImg" src={monke} />
-                            <p>Name of thing</p>
-                        </div>
-                        <div className="skillBox">
-                            <img className="skillImg" src={monke} />
-                            <p>Name of thing</p>
-                        </div>
-                    </div>
+                    ))}
                 </Marquee>
             </Grid>
 
