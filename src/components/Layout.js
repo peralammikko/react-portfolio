@@ -7,7 +7,7 @@ const Layout = () => {
     <>
         <div className="homepagebackground">
             <div className="headerContainer">
-                <div className="headerText">Header logo</div>
+                <Link className="headerText" to='/'>Header logo</Link>
                     <ul className="headerLinks">
                         <li><Link className="headerLink" to='/'>Home</Link></li>
                         <li><Link className="headerLink" to='/aboutme'>About me</Link></li>

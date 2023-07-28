@@ -197,14 +197,15 @@ Button.cardButton:hover {
 
 /* About me page */
 
-.aboutBackground {
+.aboutMeBox, .aboutSkillContainer {
     margin-top: 50px;
-}
-
-.aboutMeBox {
     border-radius: 20px;
     color: white;
     padding: 30px;
+}
+
+.aboutSkillContainer {
+    margin-bottom: 100px;
 }
 
 .aboutMeText {
@@ -224,6 +225,8 @@ Button.cardButton:hover {
 
 .skillBox {
     text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .skillImg {

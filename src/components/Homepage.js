@@ -7,6 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import MovieIcon from '@mui/icons-material/Movie';
 
 
 function Home () {
@@ -24,17 +25,26 @@ function Home () {
                     <IconButton 
                         className="socialmediabutton" 
                         aria-label='github'
-                        onClick={()=>window.open("https://github.com/peralammikko")}><GitHubIcon/></IconButton>
-                    <IconButton 
-                        className="socialmediabutton" 
-                        aria-label='instagram'
-                        onClick={() => window.open("https://www.instagram.com/mikkoper/")}
-                    ><InstagramIcon/></IconButton>
+                        onClick={()=>window.open("https://github.com/peralammikko")}><GitHubIcon/>
+                        </IconButton>
                     <IconButton 
                         className="socialmediabutton" 
                         aria-label='linkedin'
-                        onClick={()=>window.open("https://www.linkedin.com/in/mikko-per%C3%A4l%C3%A4-ba092b19b/")}
-                    ><LinkedInIcon/></IconButton>
+                        onClick={()=>window.open("https://www.linkedin.com/in/mikko-per%C3%A4l%C3%A4-ba092b19b/")}>
+                        <LinkedInIcon/>
+                    </IconButton>
+                    <IconButton 
+                        className="socialmediabutton" 
+                        aria-label='instagram'
+                        onClick={() => window.open("https://www.instagram.com/mikkoper/")}>
+                        <InstagramIcon/>
+                    </IconButton>
+                    <IconButton 
+                        className="socialmediabutton" 
+                        aria-label='letterboxd'
+                        onClick={()=>window.open("https://letterboxd.com/mixonlol/")}>
+                        <MovieIcon/>
+                </IconButton>
                 </div>
             </Grid>
             <Grid item md={5} className="homeImage">
