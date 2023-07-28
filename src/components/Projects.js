@@ -2,7 +2,7 @@ import React from "react";
 import monke from "../images/Navy_Seal.jpg";
 import ProjectCard from "./ProjectCard";
 import "../pages/style.css";
-import { Box, Container, Grid } from "@mui/material";
+import { Container, Grid } from "@mui/material";
 import calculator from "../images/calculator.png";
 import etchasketch from "../images/etchasketch.png";
 

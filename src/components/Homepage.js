@@ -1,10 +1,8 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import '../pages/style.css';
 import { CardMedia, Container, Grid, IconButton } from "@mui/material";
 import monke from "../images/Navy_Seal.jpg";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import MovieIcon from '@mui/icons-material/Movie';

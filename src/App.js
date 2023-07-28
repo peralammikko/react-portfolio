@@ -1,7 +1,5 @@
-import './App.css';
 import * as React from 'react';
-import {Container, Row, Col} from 'react-bootstrap'
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Homepage from './components/Homepage';
 import Projects from './components/Projects';
 import Layout from './components/Layout';
