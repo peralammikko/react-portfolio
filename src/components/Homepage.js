@@ -2,6 +2,7 @@ import React from "react";
 import '../pages/style.css';
 import { CardMedia, Container, Grid, IconButton } from "@mui/material";
 import monke from "../images/Navy_Seal.jpg";
+import gondola from "../images/gondola.jpg";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -49,7 +50,7 @@ function Home () {
                 <CardMedia 
                     className="devImage"
                     component={"img"}
-                    src={monke}>
+                    src={gondola}>
                     </CardMedia>
             </Grid>
         </Grid>
