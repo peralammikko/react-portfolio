@@ -11,8 +11,7 @@ import MovieIcon from '@mui/icons-material/Movie';
 
 function Home () {
     return (
-    <div className="homeBackground">
-        <Container className="homepageContainer">
+        <Container className="homepageContainer" justifyContent="center">
             <Grid
                 container 
                 className="homepageContent"
@@ -58,7 +57,6 @@ function Home () {
                 </Grid>
             </Grid>
         </Container>
-    </div>
     )
 }
 

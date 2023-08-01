@@ -8,7 +8,7 @@ import etchasketch from "../images/etchasketch.png";
 
 function Projects () {
     return (
-        <Container madWidth="xl">
+        <Container maxWidth="xl">
             <h2>Projects I've worked on</h2>
             <Grid
                 container
