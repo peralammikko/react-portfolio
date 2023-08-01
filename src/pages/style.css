@@ -72,6 +72,10 @@ body {
     color: cadetblue;
   }
 
+  .MuiGrid-root {
+    max-width: 100%;
+  }
+
 /* Homepage */
 
 
