@@ -15,6 +15,7 @@ h2 {
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -38,18 +39,11 @@ body {
     gap: 16px;
   }
 
-/* Homepage */
-
-
-  
-  .headerText {
-    font-size: 24px;
-    font-weight: 700;
-    color: #F9FAF8;
+  .headerBackground {
+    background-color: #1f2937;
   }
   
   .headerContainer {
-    background-color: #1f2937;
     display: flex;
     padding: 16px 32px;
     justify-content: space-between;
@@ -61,15 +55,32 @@ body {
     align-items: center;
     gap: 25px;
   }
-
+  
   .headerLink {
     font-size: 14px;
     font-weight: 800;
   }
-
+  
+  .headerText {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+  }
+  
+  
   .headerLink:hover {
     color: cadetblue;
   }
+
+/* Homepage */
+
+  .homeBackground {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
 
   Button.resumeButton {
     padding: 0px 15px;
@@ -103,7 +114,6 @@ body {
   .homepageContainer {
     display: flex;
     flex-direction: column;
-    padding-top: 80px;
   }
   
   .homepageContent {
@@ -139,6 +149,7 @@ body {
   .devImage {
     max-width: 350px;
     border-radius: 50px;
+    margin-bottom: 50px;
   }
 
 
@@ -197,6 +208,7 @@ Button.cardButton:hover {
 
 
 /* About me page */
+
 
 .aboutMeBox, .aboutSkillContainer {
     margin-top: 50px;

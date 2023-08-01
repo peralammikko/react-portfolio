@@ -5,7 +5,7 @@ import { Button } from "@mui/material";
 const Layout = () => {
     return (
     <>
-        <div className="homepagebackground">
+        <div className="headerBackground">
             <div className="headerContainer">
                 <Link className="headerText" to='/'>Header logo</Link>
                     <ul className="headerLinks">

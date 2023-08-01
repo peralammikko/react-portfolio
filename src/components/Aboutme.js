@@ -13,7 +13,7 @@ function Aboutme() {
                 className="aboutMeBox"
                 boxShadow={4}
                 direction="row"
-                justifyContent="space-evenly"
+                justifyContent="center"
                 alignItems="center"
             >
                 <Grid item md={5} className="aboutMeText">
