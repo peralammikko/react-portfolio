@@ -1,3 +1,4 @@
+
 h1 {
     color: white;
 }
@@ -16,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0;
+    margin: auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     background-color: #1f2937;
@@ -73,7 +74,13 @@ body {
   }
 
   .MuiGrid-root {
+    justify-content: space-between;
     max-width: 100%;
+  }
+
+  .MuiGrid-container {
+    justify-content: center;
+    width: 100%;
   }
 
 /* Homepage */

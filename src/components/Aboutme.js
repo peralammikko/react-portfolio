@@ -7,13 +7,13 @@ import {findSkillImg} from "../utility/skillImgs.js";
 function Aboutme() {
 
     return (
-        <Container maxWidth="lg" className="aboutBackground">
+        <Container xs={12} className="aboutBackground">
             <Grid 
                 container
                 className="aboutMeBox"
                 boxShadow={4}
                 direction="row"
-                justifyContent="center"
+                justifyContent="space-evenly"
                 alignItems="center"
             >
                 <Grid item md={5} className="aboutMeText">

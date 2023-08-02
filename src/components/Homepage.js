@@ -11,12 +11,11 @@ import MovieIcon from '@mui/icons-material/Movie';
 
 function Home () {
     return (
-        <Container className="homepageContainer" justifyContent="center">
+        <Container className="homepageContainer" justifyContent="center" xs={12}>
             <Grid
                 container 
                 className="homepageContent"
-                xs={8}
-                md={12}
+                xs={12}
             >
                 <Grid item className="homePara" md={5}>
                 <h2 className="titletext">Hello there</h2>

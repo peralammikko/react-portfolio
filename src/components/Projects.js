@@ -17,21 +17,21 @@ function Projects () {
                 alignItems="center"
                 direction="row"
             >
-                <Grid item xs={8} md={4} className="project-card">
+                <Grid item xs={12} md={4} className="project-card">
                     <ProjectCard
                     imgPath={monke}
                     title="Navy Seal"
                     desc="I am trained in gorilla warfare"
                     gitlink="https://www.google.com"/>
                 </Grid>
-                <Grid item xs={8} md={4} className="project-card">
+                <Grid item xs={12} md={4} className="project-card">
                     <ProjectCard
                     imgPath={calculator}
                     title="Calculator"
                     desc="A very basic calculator app made for the Odin Project"
                     gitlink="https://github.com/peralammikko/git_test"/>
                 </Grid>
-                <Grid item xs={8} md={4} className="project-card">
+                <Grid item xs={12} md={4} className="project-card">
                     <ProjectCard
                     imgPath={etchasketch}
                     title="Etch-a-Sketch"
