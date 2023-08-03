@@ -1,4 +1,5 @@
 Tampereen yliopiston kurssille "COMP.CS.210-2022-2023-1 Creating Graphical User Interfaces" tehty kurssiprojekti. Henkilökohtainen portfoliosivu, jossa esittelen omia taitojani ja projektejani. 
+https://react-portfolio-omega-one.vercel.app/
 
 Suunnitellut ja tehnyt Mikko Perälä heinäkuussa 2023.
 
@@ -8,4 +9,4 @@ Projektissa käytetyt teknologiat:
  - ReactJS
  - Material UI
  - React Router
- - React Marquee
+ - React Fast Marquee
