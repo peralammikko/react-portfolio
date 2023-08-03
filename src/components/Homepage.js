@@ -17,9 +17,9 @@ function Home () {
                 className="homepageContent"
             >
                 <Grid item className="homePara" md={5}>
-                <h2 className="titletext">Hello there</h2>
+                <h2 className="titletext">Hello visitor</h2>
                 <h2 className="nametext">I'm Mikko Perälä</h2>
-                <a>This is my portfolio site</a>
+                <a className="welcometext">And this is my portfolio site</a>
                 <div className="socialbuttons">
                     <IconButton 
                         className="socialmediabutton" 
