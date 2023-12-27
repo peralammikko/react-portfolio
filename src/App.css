@@ -29,6 +29,11 @@ body {
   color: #E5E7EB;
 }
 
+.smalltext {
+  font-size: 14px;
+  color: #E5E7EB;
+}
+
 .footer {
   justify-content: center;
 }
