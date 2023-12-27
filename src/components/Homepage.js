@@ -20,7 +20,7 @@ function Home () {
                 <h2 className="titletext">Hello visitor</h2>
                 <h2 className="nametext">I'm Mikko Perälä</h2>
                 <a className="welcometext">And this is my very first portfolio site</a>
-                <p className="smalltext">and still work-in-progress... :D</a>
+                <p className="smalltext">and still work-in-progress... :D</p>
                 <div className="socialbuttons">
                     <IconButton 
                         className="socialmediabutton" 
