@@ -13,7 +13,7 @@ const Layout = () => {
                         <li><Link className="headerLink" to='/aboutme'>About me</Link></li>
                         <li><Link className="headerLink" to='/projects'>Projects</Link></li>
                         <li><Link className="headerLink" to='/sandbox'>Sandbox</Link></li>
-                        <li><Button className="resumeButton" onClick={() => window.open('https://drive.google.com/file/d/1ZqtZrWvcUDI5Fvfcof2xx4jj6UGe57E_/view?usp=sharing')}>Resume</Button></li>
+                        <li><Button className="resumeButton" onClick={() => window.open('https://drive.google.com/file/d/1MiwHLC5BqoGgCk8up8dwxgU2RigU2OOg/view?usp=sharing')}>Resume</Button></li>
                     </ul>
             </div>
         </div>
