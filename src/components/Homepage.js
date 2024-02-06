@@ -22,7 +22,9 @@ function Home () {
                 <a className="welcometext">And this is my very first portfolio site</a>
                 <h5 className="smalltext">
                     In the summer of 2023, I knew next to nothing about web dev. So, I started a curriculum in The Odin Project and used that knowledge to build this site!
-                    It's far from perfect, but it's a start that has taught me a lot of things!
+                </h5>
+                <h5>
+                    It's far from perfect, but it's a start that taught me a lot of things!
                 </h5>
                 <div className="socialbuttons">
                     <IconButton 
