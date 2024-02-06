@@ -8,6 +8,7 @@ import etchasketch from "../images/etchasketch.png";
 import landingpage from "../images/landingpage.png";
 import portfolio from "../images/portfolio.png";
 import fridgetinder from "../images/fridgetinder.png";
+import barrelroll from "../images/barrelroll.png";
 
 function Projects () {
     return (
@@ -20,6 +21,14 @@ function Projects () {
                 alignItems="center"
                 direction="row"
             >
+                <Grid item xs={12} md={4} className="project-card">
+                    <ProjectCard
+                    imgPath={barrelroll}
+                    title="Bad Game Advice"
+                    desc="Dumb game quotes turned into dumb inspirational posts"
+                    demolink="https://badgameadvice.vercel.app/"
+                    gitlink="https://github.com/peralammikko/badgameadvice"/>
+                </Grid>
                 <Grid item xs={12} md={4} className="project-card">
                     <ProjectCard
                     imgPath={landingpage}
