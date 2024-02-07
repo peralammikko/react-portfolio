@@ -22,8 +22,9 @@ function Aboutme() {
                         After a bachelor's degree in Material Science, I switched to Computer Science to learn more about UI/UX design related work and developing interesting software.
                     </p>
                     <p>
-                        As far back as I can remember, I've always wanted to be in the video games industry. Along the way, I got interested in software development in general, namely
-                        from the perspective of design & usability. I'm a creative person with an eye for details, but also someone who appreciates having a bit of fun!
+                        As far back as I can remember, I've always wanted to work in the video games industry. This passion got me interested in software development in general, 
+                        especially about the importance of design: how to make things more usable, feel better, and appear understandable. I find design work lets me do what I do best:
+                        create something great by being creative with eye for details while also having a bit of fun!
                     </p>
                 </Grid>
                 <Grid item md={5} className="aboutMeImage">
