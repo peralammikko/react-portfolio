@@ -58,6 +58,7 @@ function Projects () {
                     imgPath={fridgetinder}
                     title="FridgeTinder"
                     desc="Course project for Human-Technology Interaction 2: Design. Hi-Fi mobile wireframes of a food-saving application"
+                    demolink="https://www.linkedin.com/in/mikko-per%C3%A4l%C3%A4-ba092b19b/overlay/projects/1983787665/multiple-media-viewer/?profileId=ACoAAC7yDugBTXQ-Nk29pB8bWovVIRKzciKVF6c&treasuryMediaId=1709233288306"
                     gitlink="https://github.com/peralammikko/FridgeTinder"/>
                 </Grid>
                 <Grid item xs={12} md={4} className="project-card">
