@@ -7,6 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import MovieIcon from '@mui/icons-material/Movie';
+import Tooltip from '@mui/material/Tooltip';
 
 
 function Home () {
