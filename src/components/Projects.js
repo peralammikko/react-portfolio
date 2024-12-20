@@ -9,6 +9,7 @@ import landingpage from "../images/landingpage.png";
 import portfolio from "../images/portfolio.png";
 import fridgetinder from "../images/fridgetinder.png";
 import barrelroll from "../images/barrelroll.png";
+import guide from "../images/guide-start.png";
 
 function Projects () {
     return (
@@ -23,7 +24,7 @@ function Projects () {
             >
                 <Grid item xs={12} md={4} className="project-card">
                     <ProjectCard
-                    imgPath={landingpage}
+                    imgPath={guide}
                     title="Campus Guide"
                     desc="Product concept for physical interactive guide-board at Tampere University"
                     demolink="https://www.figma.com/proto/Xvw8Bs6r6pnd8D2u02bfmJ/Campus-Guide?page-id=0%3A1&node-id=223-799&p=f&viewport=364%2C269%2C0.07&t=ft0yiprL1LJqhvNu-1&scaling=contain&content-scaling=fixed&starting-point-node-id=223%3A799&show-proto-sidebar=1"
