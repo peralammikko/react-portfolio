@@ -44,7 +44,7 @@ function Projects () {
                     <ProjectCard
                     imgPath={uuxr}
                     title="UUXR"
-                    desc="XR product concept for "Human-Centered Design" course. (2023)"
+                    desc="XR product concept for 'Human-Centered Design' course. (2023)"
                     gitlink="https://github.com/peralammikko/uuxr"/>
                 </Grid>  
                 <Grid item xs={12} md={4} className="project-card">
