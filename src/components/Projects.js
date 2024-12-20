@@ -10,6 +10,7 @@ import portfolio from "../images/portfolio.png";
 import fridgetinder from "../images/fridgetinder.png";
 import barrelroll from "../images/barrelroll.png";
 import guide from "../images/guide-start.png";
+import witchfinder from "../images/witchfinder.png";
 
 function Projects () {
     return (
@@ -24,6 +25,14 @@ function Projects () {
             >
                 <Grid item xs={12} md={4} className="project-card">
                     <ProjectCard
+                    imgPath={witchfinder}
+                    title="Witchfinder"
+                    desc="Visual novel/point-and-click mystery game where you meet and judge suspected witches."
+                    demolink="https://bugcave.itch.io/witchfinder"
+                    gitlink="https://github.com/peralammikko/burnthewitches"/>
+                </Grid>
+                <Grid item xs={12} md={4} className="project-card">
+                    <ProjectCard
                     imgPath={guide}
                     title="Campus Guide"
                     desc="Product concept for physical interactive guide-board at Tampere University"
@@ -34,7 +43,7 @@ function Projects () {
                     <ProjectCard
                     imgPath={barrelroll}
                     title="Bad Game Advice"
-                    desc="Dumb game quotes turned into dumb inspirational posts"
+                    desc="Dumb game quotes turned into dumb inspirational posts."
                     demolink="https://badgameadvice.vercel.app/"
                     gitlink="https://github.com/peralammikko/badgameadvice"/>
                 </Grid>
@@ -58,7 +67,7 @@ function Projects () {
                     <ProjectCard
                     imgPath={fridgetinder}
                     title="FridgeTinder"
-                    desc="Course project for Human-Technology Interaction 2: Design. Hi-Fi mobile wireframes of a food-saving application"
+                    desc="App concept and hi-fi mobile wireframes for a food-saving application."
                     demolink="https://www.linkedin.com/in/mikko-per%C3%A4l%C3%A4-ba092b19b/overlay/projects/1983787665/multiple-media-viewer/?profileId=ACoAAC7yDugBTXQ-Nk29pB8bWovVIRKzciKVF6c&treasuryMediaId=1709233288306"
                     gitlink="https://github.com/peralammikko/FridgeTinder"/>
                 </Grid>
