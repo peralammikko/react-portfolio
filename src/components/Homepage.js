@@ -27,11 +27,13 @@ function Home () {
                     It's far from perfect, but it's a start that taught me a lot of things!
                 </h5>
                 <div className="socialbuttons">
-                    <IconButton 
-                        className="socialmediabutton" 
-                        aria-label='github'
-                        onClick={()=>window.open("https://github.com/peralammikko")}><GitHubIcon/>
+                    <Tooltip title="Github" placement="bottom-end">
+                        <IconButton 
+                            className="socialmediabutton" 
+                            aria-label='github'
+                            onClick={()=>window.open("https://github.com/peralammikko")}><GitHubIcon/>
                         </IconButton>
+                    </Tooltip>
                     <IconButton 
                         className="socialmediabutton" 
                         aria-label='linkedin'
