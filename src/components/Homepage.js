@@ -20,12 +20,12 @@ function Home () {
                 <Grid item className="homePara" md={5}>
                 <h2 className="titletext">Hello visitor</h2>
                 <h2 className="nametext">I'm Mikko Perälä</h2>
-                <a className="welcometext">And this is my very first portfolio site</a>
+                <a className="welcometext">And this is my first portfolio site</a>
                 <h5 className="smalltext">
                     In the summer of 2023, I knew next to nothing about web dev. So, I started a curriculum in The Odin Project and used that knowledge to build this site!
                 </h5>
                 <h5 className="smalltext">
-                    It's far from perfect, but it's a start that taught me a lot of things!
+                    It's far from perfect, but it's a start that taught me a lot of things. Site rework coming soon!
                 </h5>
                 <div className="socialbuttons">
                     <Tooltip title="GitHub" placement="bottom-end">
